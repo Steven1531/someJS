@@ -1,0 +1,31 @@
+$colorMain: #C00000;
+$colorBack: #F7B32D;
+
+body {
+    background: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%) no-repeat;
+    height: 100vh;
+}
+
+.cooltitle {
+    text-align: center;
+    font-family: 'Oswald', Helvetica, sans-serif;
+    font-size: 80px;
+    transform: skewY(-10deg);
+    letter-spacing: 4px;
+    word-spacing: -8px;
+    color: $colorMain;
+    text-shadow:
+        -1px -1px 0 $colorMain,
+        -2px -2px 0 $colorBack,
+        -3px -3px 0 $colorBack,
+        -4px -4px 0 $colorBack,
+        -5px -5px 0 $colorBack,
+        -6px -6px 0 $colorBack,
+        -7px -7px 0 $colorBack,
+        -8px -8px 0 $colorBack,
+        -30px 20px 30px #afafaf
+}
+
+.done {
+    text-decoration: line-through;
+}
